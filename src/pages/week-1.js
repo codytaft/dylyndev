@@ -22,7 +22,7 @@ const SecondPage = () => {
       link: 'https://youtu.be/6E8ahar1bUI',
     },
     {
-      submitter: 'Ophelia',
+      submitter: 'Ofelia',
       artist: 'Chris Tomlin',
       song: 'Is He Worthy',
       link: 'https://youtu.be/-c6pl6CaiD0',
