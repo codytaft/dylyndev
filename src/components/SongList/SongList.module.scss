@@ -1,0 +1,18 @@
+.list-item {
+  color: #258cd1;
+  text-decoration: none;
+  list-style: none;
+  .submitter {
+    margin-bottom: 0;
+  }
+  .song {
+    margin-left: 20px;
+
+    .link {
+      text-decoration: none;
+      &:hover {
+        color: blue;
+      }
+    }
+  }
+}

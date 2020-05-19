@@ -4,6 +4,8 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import SongList from '../components/SongList/index'
+import styles from './styles/week-1.module.scss'
 
 const SecondPage = () => {
   const songs = [
@@ -54,19 +56,8 @@ const SecondPage = () => {
     <Layout>
       <SEO title="Week One" />
       <h1>Week 1</h1>
-      <ul>
-        {songs.map(song => (
-          <li>
-            <p>
-              {song.submitter}
-            </p>
-            <a href={song.link}>
-              {song.song} by {song.artist}
-            </a>
-          </li>
-        ))}
-      </ul>
-      <Link to="/">Go Home</Link>
+      <SongList songs={songs}/>
+      <Link to="/" className={styles.link}>Go Home</Link>
     </Layout>
   )
 }
