@@ -5,9 +5,9 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import SongList from '../components/SongList/index'
-import styles from './styles/week-1.module.scss'
+import styles from './styles/week.module.scss'
 
-const SecondPage = () => {
+const WeekOne = () => {
   const songs = [
     {
       submitter: 'Ambree',
@@ -62,4 +62,4 @@ const SecondPage = () => {
   )
 }
 
-export default SecondPage
+export default WeekOne
