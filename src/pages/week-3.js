@@ -47,9 +47,9 @@ const SecondPage = () => {
     },
     {
       submitter: 'Ofelia',
-      artist: '',
-      song: '',
-      link: '',
+      artist: 'The Eagles',
+      song: 'New Kid In Town',
+      link: 'https://youtu.be/LLf3mDLWzJE',
     },
   ];
   return (
