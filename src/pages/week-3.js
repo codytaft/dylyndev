@@ -41,9 +41,9 @@ const SecondPage = () => {
     },
     {
       submitter: 'Pedro',
-      artist: '',
-      song: '',
-      link: '',
+      artist: 'Edie Brickell & New Bohemians',
+      song: 'Nothing',
+      link: 'https://m.youtube.com/watch?v=eJOAz7zdKKo&list=RDeJOAz7zdKKo&start_radio=1',
     },
     {
       submitter: 'Ofelia',
