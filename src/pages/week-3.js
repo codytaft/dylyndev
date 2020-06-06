@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import SongList from '../components/SongList/index'
 import styles from './styles/week.module.scss'
 
+
 const SecondPage = () => {
   const songs = [
     {
@@ -38,6 +39,7 @@ const SecondPage = () => {
       artist: 'Bob Dylan',
       song: 'Black Diamond Bay',
       link: 'https://www.youtube.com/watch?v=WhENzrnToiU',
+      audio: '/BlackDiamondBay.mp3'
     },
     {
       submitter: 'Pedro',

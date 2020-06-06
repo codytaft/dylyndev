@@ -1,5 +1,6 @@
 import React from 'react';
 import songListStyles from './SongList.module.scss'
+import ReactAudioPlayer from 'react-audio-player';
 
 const SongList = ({songs}) => {
   return ( 
@@ -12,6 +13,10 @@ const SongList = ({songs}) => {
           <div className={songListStyles.song}>
             {song.artist}  |  <a href={song.link} className={songListStyles.link}>{song.song}</a>
           </div>
+          {song.audio && <ReactAudioPlayer
+            src={song.audio}
+            controls
+          />}
         </li>
       ))}
     </ul>
