@@ -15,7 +15,6 @@ const SongList = ({songs}) => {
           </div>
           {song.audio && <ReactAudioPlayer
             src={song.audio}
-            autoPlay
             controls
           />}
         </li>
