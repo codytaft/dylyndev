@@ -39,7 +39,7 @@ const SecondPage = () => {
       artist: 'Bob Dylan',
       song: 'Black Diamond Bay',
       link: 'https://www.youtube.com/watch?v=WhENzrnToiU',
-      audio: '/BlackDiamondBay.flac'
+      audio: '/BlackDiamondBay.mp3'
     },
     {
       submitter: 'Pedro',
