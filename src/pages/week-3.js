@@ -57,8 +57,8 @@ const SecondPage = () => {
   ];
   return (
     <Layout>
-      <SEO title="Week One" />
-      <h1>Week 1</h1>
+      <SEO title="Week Three" />
+      <h1>Week 3</h1>
       <SongList songs={songs}/>
       <Link to="/" className={styles.link}>Go Home</Link>
     </Layout>
