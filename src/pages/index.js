@@ -15,6 +15,7 @@ const IndexPage = () => (
       <Link to="/week-1/">Week 1</Link>
       <Link to="/week-3/">Week 3</Link>
       <Link to="/week-4/">Week 4</Link>
+      <Link to="/week-5/">Week 5</Link>
     </div>
   </Layout>
 )
