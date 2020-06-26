@@ -41,22 +41,22 @@ const SecondPage = () => {
       link: 'https://youtu.be/7Lb9dq-JZFI',
     },
     {
-      submitter: 'Mingo',
-      artist: 'David Ramirez ',
-      song: 'Stick Around',
-      link: 'https://youtu.be/oV0Vi658byo',
+      submitter: 'Diana',
+      artist: 'The Jeff Healey Band',
+      song: 'Angel Eyes',
+      link: 'https://m.youtube.com/watch?v=kag0TsZzxpw',
+    },
+    {
+      submitter: 'Ambree',
+      artist: '?',
+      song: '?',
+      link: '?',
     },
     {
       submitter: 'Angelo',
       artist: '?',
       song: '?',
       link: '?',
-    },
-    {
-      submitter: 'Diana',
-      artist: 'The Jeff Healey Band',
-      song: 'Angel Eyes',
-      link: 'https://m.youtube.com/watch?v=kag0TsZzxpw',
     },
   ];
   return (
